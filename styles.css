@@ -1,0 +1,137 @@
+/* Common Styles */
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 500;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* End of Common Styles */
+
+/* Title Section */
+.title-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo{
+    margin-left: 3rem;
+    margin-top: 2.5rem;
+    padding: 1rem;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    position: absolute;
+    left: 18rem;
+}
+
+.navbar-link{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #777;
+    margin-right: 3rem;
+}
+
+#register{
+    border: 1px solid #777;
+    padding: 1rem;
+    border-radius: 1.2rem;
+}
+/* End of Title Section */
+
+/* Body Section */
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position: relative;
+}
+
+.body-container{
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    width: 42vw;
+    position: absolute;
+    margin-top: 8rem;
+    left: 13rem;
+}
+
+.body-heading{
+    font-family: "Epilogue", sans-serif;
+    font-size: 8rem;
+    font-weight: 700;
+}
+
+.body-text{
+    font-size: 18px;
+    color: #777;
+    width: 80%;
+    margin-top: 5rem;
+    line-height: 2.5rem;
+}
+
+.btn{
+    width: 30%;
+    margin-top: 5rem;
+    padding: 1.5rem;
+    border-radius: 15px;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+}
+
+.logos-container{
+    grid-row: 2/2;
+}
+
+.design-container{
+    grid-column: 2/3;
+    overflow: hidden;
+}
+
+.hero-img{
+    height: 75vh;
+    position: absolute;
+    right: 10rem;
+    top: 3rem;
+    overflow: hidden;
+}
+
+.logos-container{
+    position: absolute;
+    width: 100%;
+    left: 13rem;
+    bottom: 13rem;
+}
+
+.client{
+    margin-right: 4rem;
+}
+/* End of Body Section */
+
+/* Attribution */
