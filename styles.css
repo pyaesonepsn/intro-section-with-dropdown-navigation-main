@@ -296,6 +296,130 @@ p{
     .dropdown:hover .dropdown-content-company{
         height: max-content;
     }
+}
 
+@media (max-width: 1000px){
+    h1{
+        font-size: 3rem;
+        line-height: 3rem;
+    }
 
+    p{
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
+
+    .header-text{
+        width: 352px;
+    }
+
+    .img-hero-desktop{
+        width: 382px;
+    }
+}
+
+@media (max-width: 750px){
+    .navbar-btn{
+        display: block;
+    }
+
+    .toggle .btn-line:nth-child(1){
+        transform: rotate(-45deg) translate(-7px, 5px);
+    }
+
+    .toggle .btn-line:nth-child(2){
+        opacity: 0;
+    }
+
+    .toggle .btn-line:nth-child(3){
+        transform: rotate(45deg) translate(-5px, -5px);
+    }
+
+    .navbar-nav{
+        background: var(--almost-white);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        flex-direction: column;
+        transform: translate(100%,0);
+        padding-top: 4rem;
+        transition: all ease-out 0.5s;
+    }
+
+    .show-nav{
+        transform: translate(30%);
+    }
+
+    .drop-btn{
+        padding: 1rem;
+    }
+
+    .chevron-up{
+        transform: rotate(180deg);
+    }
+
+    .transform{
+        transform: unset;
+    }
+
+    .toggle-color{
+        color: var(--almost-black);
+    }
+
+    .show-features{
+        height: max-content;
+    }
+
+    .show-company{
+        height: max-content;
+    }
+
+    .btn-login{
+        display: none;
+    }
+
+    .btn-register{
+        display: none;
+    }
+
+    h1{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .row{
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .header-text{
+        width: 80%;
+        order: 2;
+        margin: 3rem 0 6rem;
+    }
+
+    .img-hero-desktop{
+        display: none;
+    }
+
+    .img-hero-mobile{
+        order: 1;
+        display: block;
+    }
+
+    .btn-primary{
+        margin: auto;
+    }
+
+    .clients-container{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 500px){
+    .header-text{
+        width: 100%;
+    }
 }
