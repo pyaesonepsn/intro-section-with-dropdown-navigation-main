@@ -182,8 +182,9 @@ ul{
 
 h1{
     font-size: 4.5rem;
-    line-height: 4.5rem;
+    line-height: 5rem;
     width: 60%;
+    font-weight: 700;
     margin-top: 5rem;
     margin-bottom: 5rem;
     margin-left: 5rem;
@@ -442,6 +443,13 @@ p{
     .img-hero-mobile{
         order: 1;
         display: block;
+    }
+
+    p{
+        font-size: 18px;
+        text-align: center;
+        margin: 3rem 0;
+        line-height: 2.5rem;
     }
 
     .btn-primary{
