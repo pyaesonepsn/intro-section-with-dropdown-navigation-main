@@ -50,7 +50,6 @@ ul{
     background: var(--almost-white);
     cursor: pointer;
     border: transparent;
-
     position: fixed;
     top: 1.5rem;
     right: 1rem;
@@ -61,7 +60,6 @@ ul{
     background: var(--almost-black);
     height: 2px;
     width: 32px;
-
     margin: 6px;
 }
 
@@ -71,7 +69,8 @@ ul{
 
 .branding {
     display: block;
-    padding: 0.25rem 0 0;
+    padding: 1rem 0 0;
+    margin-left: 2rem;
 }
 
 .navbar-nav {
@@ -102,7 +101,6 @@ ul{
 .dropdown-content{
     background: var(--almost-white);
     height: 0;
-
 }
 
 .drop-link{
@@ -144,6 +142,7 @@ ul{
     align-items: center;
     width: auto;
     margin-left: auto;
+    margin-right: 5rem;
 }
 
 .btn-login{
@@ -184,19 +183,25 @@ ul{
 h1{
     font-size: 4.5rem;
     line-height: 4.5rem;
+    width: 60%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
 }
 
 p{
     font-size: 18px;
-    line-height: 30px;
-    margin: 2rem 0 2rem;
+    color: var(--medium-gray);
+    line-height: 4rem;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
 }
 
 .row{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 -1rem;
+    margin-left: 5rem;
 }
 
 .header-text{
@@ -224,8 +229,10 @@ p{
     color: var(--almost-white);
     border-radius: 0.75rem;
     font-weight: 500;
-    border: var(--almost-black) 1.5px solid;
+    border: 1px solid var(--almost-black);
     padding: 1rem 1.5rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
 }
 
 .btn-primary:hover{
@@ -235,11 +242,12 @@ p{
 
 .clients-container{
     display: flex;
-    margin-top: 4rem;
+    margin-top: 5rem;
+    margin-left: 5rem;
 }
 
-.client{
-    margin-right: 4rem;
+.client-img{
+    margin-right: 5rem;
 }
 
 .attribution{
@@ -275,12 +283,16 @@ p{
         box-shadow: 0 10px 20px hsl(0, 0%, 90%);
         width: max-content;
         position: absolute;
-        top: 3rem;
+        top: 5rem;
         right: 1.2rem;
+        visibility: hidden;
+        opacity: 0;
     }
 
     .dropdown:hover .dropdown-content-features{
         height: max-content;
+        visibility: visible;
+        opacity: 1;
     }
 
     .dropdown-content-company{
@@ -289,12 +301,16 @@ p{
         box-shadow: 0 10px 20px hsl(0, 0%, 90%);
         width: max-content;
         position: absolute;
-        top: 3rem;
+        top: 5rem;
         right: 1.2rem;
+        visibility: hidden;
+        opacity: 0;
     }
 
     .dropdown:hover .dropdown-content-company{
         height: max-content;
+        visibility: visible;
+        opacity: 1;
     }
 }
 
@@ -368,12 +384,26 @@ p{
         color: var(--almost-black);
     }
 
+    .dropdown-content-features{
+        visibility: hidden;
+        opacity: 0;
+    }
+
     .show-features{
         height: max-content;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .dropdown-content-company{
+        visibility: hidden;
+        opacity: 0;
     }
 
     .show-company{
         height: max-content;
+        visibility: visible;
+        opacity: 1;
     }
 
     .btn-login{
@@ -385,17 +415,22 @@ p{
     }
 
     h1{
-        font-size: 2rem;
-        line-height: 2rem;
+        font-size: 3.5rem;
+        line-height: 3rem;
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        font-weight: 700;
     }
     .row{
         text-align: center;
         align-items: center;
         flex-direction: column;
+        margin: 0;
     }
 
     .header-text{
-        width: 80%;
+        width: 100%;
         order: 2;
         margin: 3rem 0 6rem;
     }
@@ -416,6 +451,7 @@ p{
     .clients-container{
         justify-content: center;
     }
+
 }
 
 @media (max-width: 500px){
