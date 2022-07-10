@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![screenshot](https://media.giphy.com/media/JRvmptW2Jrg1jQ712u/giphy.gif)
 
 
 
@@ -69,7 +69,7 @@ I learned to animate the close navigation bar button using below CSS codes...
   transform: rotate(45deg) translate(-5px, -5px);
 }
 ```
-I learned to use below JavaScript DOM to show up the hidden navigation items.
+**I learned to use below JavaScript DOM to show up the hidden navigation items.**
 ```js
 btnFeatures.addEventListener('click', () => {
   dropdownContentFeatures.classList.toggle('show-features')
@@ -86,14 +86,14 @@ In the future project, I have to focus to use JavaScript DOM and CSS styles comb
 
 ### Useful resources
 
-- [https://www.w3schools.com/css/css_dropdowns.asp]() - This helped me to develop dropdown navigation items.
+- [https://www.w3schools.com/css/css_dropdowns.asp](w3schools) - This helped me to develop dropdown navigation items.
 
 
 ## Author
 
-- Website - [https://github.com/pyaesonepsn]()
-- Frontend Mentor - [https://www.frontendmentor.io/profile/pyaesonepsn]()
-- Twitter - [https://www.twitter.com/pyaesonepsn]()
+- Website - [https://github.com/pyaesonepsn](github)
+- Frontend Mentor - [https://www.frontendmentor.io/profile/pyaesonepsn](frontendmentor)
+- Twitter - [https://www.twitter.com/pyaesonepsn](twitter)
 
 
 
